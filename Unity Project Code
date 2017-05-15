@@ -3,18 +3,47 @@ Unity Project Aanpassingen
 -------------------------
 
 *Wat heb je aangemaakt*
-
+Basic player movement
+Rigidbody2D in de player
+2D box collider in de platform
 -------------------------
 
 *heb ik script aangepast?*
-
+Nieuw script: PlayerManager
 -------------------------
 
 *Waar moet het staan*
-
+Script staat in de player
 -------------------------
 
 *De aangemaakte code*
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerManager : MonoBehaviour
+{
+
+    public float moveSpeed;
+    public float jumpForce;
+    private Rigidbody2D myRigidbody;
+
+    void Start()
+    {
+        myRigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        myRigidbody.velocity = new Vector2(moveSpeed, myRigidbody.velocity.y);
+        if
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
+        }
+    }
+}
 
 -------------------------
 
