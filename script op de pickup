@@ -1,0 +1,39 @@
+using UnityEngine;
+using System.Collections;
+
+public class bonusPickup : MonoBehaviour
+{
+
+    // Use this for initialization
+    public float moveSpeed;
+    public float speedBonus;
+    public float healthBonus;
+    public float jumpBonus;
+
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+
+        if (other.tag == "Player")
+        {
+            moveSpeed += 300;
+
+
+
+        }
+
+    }
+    void Start()
+    {
+        //this can be a speedBoost although i would usually make prefabs for each one instead of coding
+        //that way you can make something like smallBoost = 4 bigBoost = 8 or whatever
+        speedBonus = 800f;
+        moveSpeed = 800f;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+}
