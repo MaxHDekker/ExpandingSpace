@@ -1,0 +1,14 @@
+Voor het maken van de game was er een Engine nodig.
+Na lang discussiëren kwamen we er achter dat Unity ons het meest kon brengen.
+
+Waarom? Nou Game Maker leek ons wel een goede optie, maar omdat we onszelf wouden verbeteren in Unity vonden Unity eerder geschikt dan Game Maker.
+Nu dat we zo terug kijken was Game Maker waarschijnlijk een betere optie, omdat het daar voor ons gemakkelijker zou zijn geweest, omdat we dus al zo veel ervaring er mee hadden.
+
+Wel een van de grote reden waarom we Unity kozen, kwam vanuit het concept/idee.
+De artists wouden namelijk 3D elementen en particle effects hebben in de game en dat zou niet geschikt zijn in Game Maker.
+
+Het samenwerken in Unity is ook goed te doen. 
+Je hoeft alleen een team te creëren en de collab functie te gebruiken.
+
+Gemaakt door: Dave Bakker, GD1B 
+(Developer)
